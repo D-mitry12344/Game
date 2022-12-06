@@ -31,7 +31,7 @@ function logKey(e) {
 	}
 	if(e.code == 'ArrowUp'){
 		if(lefter == 700 || lefter == 600 || lefter == 800){
-			agent.style.top=400+"px";
+			agent.style.top= 400+"px";
 			return toper;
 			}
 		if(toper == 0){

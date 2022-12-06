@@ -30,17 +30,12 @@ function logKey(e){
  		agent.style.left = lefter + "px";
  	  	
  	  }
- 	//return stoneWidth;
  	 return lefter;
  	}
  	if(stoneWidth == 200){
  		stoneWidth=50;
  		stone.style.width= 50 + "px";
-      //stone.style.background ="black"
  		return stoneWidth;
  	}
  }
- /*if(toper == 400 && lefter == 600 && e.code == "ArrowRight"){
-    agent.style.left= lefter - 100 +"px";
- }*/
 }

@@ -1,0 +1,13 @@
+.bot{
+	background:url("img/bot.png") no-repeat center;
+	background-size: cover;
+	border-radius: 50%;
+	position: fixed;
+	width: 100px;
+	height: 100px;
+}
+
+.upBut{
+	left: 1100px;
+	top: 100px;
+}

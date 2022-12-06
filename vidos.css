@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Gothic;
+	src: url('gotic.otf');
+}
+html{
+	background: url("vidos.gif")  no-repeat ;
+	background-size: cover;
+}
+
+.kik{
+	position: fixed;
+	left: 400px;
+	opacity: 0.2;
+}
+.kik:hover{
+	opacity: 1;
+}
+
+.textEnd{
+	font-family: Gothic;
+	width: 700px;
+	height: 100px;
+	background: transparent;
+	color: goldenrod;
+	font-size: 40px;
+	left: 400px;
+	top: 450px;
+	position: absolute;
+}

@@ -1,30 +1,13 @@
 html{
-	background: url("backGR.jpg");
+	background: url("img/backGR.jpg") repeat no-repeat ;
 }
 
-.textEnd{
-	width: 700px;
-	height: 100px;
-	background: transparent;
-	color: White;
-	font-size: 40px;
-	font-family: bold;
-	left: 400px;
-	top: 100px;
-	position: absolute;
-}
-.end{
-	width: 1200px;
-	height: 700px;
-	background: black;
-	position: absolute;
-	opacity: 0.8;
-	display: none;
-}
+
+
 .keyDoor{
 	width: 150px;
 	height: 150px;
-	background: url("key.jpg") no-repeat center;
+	background: url("img/key.jpg") no-repeat center;
 	background-size: cover;
 	top: 0;
 	left: 0;
@@ -53,7 +36,8 @@ html{
 	height: 200px;
 	position: fixed;
 	top: 400px;
-	background: url("agent.png");
+	left: 0px;
+	background: url("img/agent.png");
 }
 
 .closed{
@@ -63,7 +47,7 @@ html{
 	top: 0;
 	left: 608px;
 	border: 5px solid #a4a4a4;
-	background: url("stone.png") center;
+	background: url("img/stone.png") center;
 	background-size: 70%;
 }
 
@@ -86,14 +70,14 @@ html{
 	height: 200px;
 	top: 400px;
 	left: 600px;
-	background: url("door.png") no-repeat center;
+	background: url("img/door.png") no-repeat center;
 }
 
 .portal{
 	width: 300px;
 	height: 300px;
 	animation:4s rota infinite;
-	background: url("portal.gif") no-repeat center;
+	background: url("img/portal.gif") no-repeat center;
 	background-size: cover;
 	position: fixed;
 	top: 100px;

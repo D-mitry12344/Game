@@ -18,7 +18,7 @@ text = () => {
    pool.style.display ="none";
 }
 function logKey(e){
-  if(toper == 400 && lefter == 1200 && e.code == 'KeyE'){
+  if(toper == 400 && lefter == 1100 && e.code == 'KeyE'){
    agent.style.animation="smalled 4s both"
    geroi.style.display="none"
    setTimeout(text, 5000);
